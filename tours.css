@@ -1,0 +1,415 @@
+.container-fluid{
+    padding-left: 0px; 
+    padding-right: 0px;
+   
+    
+}
+
+.navbar {
+  background-color: #4D4C4C; 
+
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0; 
+  border: 0;
+}
+
+
+ul.nav li a, ul.nav li a:visited {
+    color: #FFFFFF !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #D5690F !important;
+}
+
+ul.nav li.active a {
+    color: #4D4C4C !important;
+}
+
+
+
+
+
+
+
+#logo {
+    height:150px;
+    width:auto; 
+    margin-top: -53.5px; 
+    margin-left: 10px; 
+}
+
+.herobg {
+  width:100%;
+  height:600px;;
+  background: url('images/tourshero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.herobg h1 {
+  color:white;
+    width:100%;
+    line-height: 100%;
+    font-size: 11vw; 
+    text-align: left; 
+   font-family: "Salden"; 
+   margin-top: 150px; 
+    margin-bottom: 20px;  
+
+}
+
+.CaptainIntro {
+    
+    font-family: "Acumin Pro," sans-serif;
+    color: white; 
+    font-size: 2.5vw; 
+    
+}
+
+
+.container {
+    margin-left: 10px; 
+}
+
+.btn-primary{
+    background-color:black; 
+ 
+color:#FFF;
+ 
+border-color:black; 
+    
+    margin-bottom: 45px; 
+    
+    border-radius: 18px;
+    
+    font-size: 1.8vw; 
+}
+
+
+.btn-primary:hover {
+    background-color: #d5690f;
+}
+
+
+.container-fluid {
+  background-color: #4D4C4C; 
+   
+  
+}
+
+.modeltext {
+    float: right;
+    width: 60%;
+    padding-left:40px; 
+    padding-right:40px; 
+      
+    height: 70%; 
+    margin-bottom: 100px; 
+    
+     
+    
+    margin-top: -110px; 
+    
+    background-color: #7C3C06; 
+    color: white; 
+    border-top; -50px;
+  
+    
+    border-radius: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+    
+       
+    
+   }
+   .modelimage {
+      float: left;
+      width: 100%;
+      padding-left: 0px;
+      padding-top: 150px;
+       
+       
+      margin-bottom: 50px; 
+      height: 30px;
+       
+      margin-left: 0px;
+   
+      
+    }
+
+ 
+
+
+p {
+    font-family: "Acumin Pro,", sans-serif;   
+    font-weight:200; 
+    font-size: 1.2em; 
+    
+    
+    
+    text-align: left;
+
+    
+margin-bottom: 30px; 
+     
+    
+    
+    
+}
+
+img {
+      display: block;
+      height: 500px;
+      max-width: 100%;
+   }
+   @media screen and (max-width: 1000px) {
+      .artefactsimage, .artefactstext,  {
+         width: 100%;
+         text-align: center;
+      }
+      img {
+         margin: auto;
+      }
+   }
+
+
+ .VirtualText {
+    float: left;
+    width: 60%;
+    padding-left:40px; 
+    padding-right:40px; 
+      
+    height: 70%; 
+    margin-bottom: 100px; 
+    
+    
+    
+    margin-top: -550px; 
+    
+    background-color: #7C3C06;
+    color: white; 
+    border-top; -50px;
+  
+    
+    border-radius: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  
+}
+   
+
+.VirtualImage {
+      
+     float: right;
+       
+       padding-top: 150px; 
+    
+    margin-top: 40px;
+      
+    }
+
+
+
+
+.InPersonText {
+    float: right;
+    width: 60%;
+    padding-left:40px; 
+    padding-right:40px; 
+      
+    height: 110%; 
+    margin-bottom: 100px; 
+    
+     
+    
+    margin-top: -90px; 
+    
+    background-color: #7C3C06; 
+    color: white; 
+    border-top; -50px;
+  
+    
+    border-radius: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  
+    }
+   .InPersonImage {
+      float: left;
+      width: 100%;
+      padding-left: 0px;
+      padding-top: 150px;
+       
+      margin-top: 40px; 
+      height: 100px;
+       
+      margin-left: 0px;
+       
+        
+   
+      
+    }
+
+.InPersonHeading {
+    
+          font-family: "Salden"; 
+    
+      
+           font-size: 6.0vw; 
+      
+          
+           width: 5%;
+           text-align: center;
+   
+    
+    }
+
+
+
+.ModelHeading {
+    
+    font-family: "Salden"; 
+    
+      
+           font-size: 6.0vw; 
+      
+          
+           width: 5%;
+           text-align: center;
+    
+}
+
+.VirtualHeading {
+     
+   font-family: "Salden"; 
+    
+    font-size: 6.0vw;
+    
+    width: 5%
+        
+    text-align: center;  
+    
+}
+
+.InPersonParagraph {
+    
+    font-family: "Acumin Pro," sans-serif;   
+    font-weight:200; 
+    font-size: 2.5vw; 
+    
+   
+    
+    text-align: left;
+
+    
+    margin-bottom: 30px; 
+}
+
+
+.VirtualParagraph {
+    
+    font-family: "Acumin Pro," sans-serif; 
+    font-weight:200; 
+    font-size:2.5vw; 
+    
+    text-align: left; 
+    
+    margin-bottom: 30px; 
+}
+
+.ModelParagraph {
+    
+    font-family: "Acumin Pro," sans-serif;
+    font-weight:200;
+    font-size: 2.5vw;
+    
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+
+footer{
+     background-image: url(images/newfooter.jpg); 
+    background-size:cover;  
+     padding-left:40px;
+    padding-right:40px; 
+    padding-top: 240px; 
+    padding-bottom: 40px; 
+    
+    text-align:left;
+    
+    
+    
+    
+}	       
+
+footer ul li{
+    padding:5px 0px;
+}
+
+.address span , .hours span , .connect span{
+   color: black; 
+   font-weight: 800; 
+   padding-bottom: 10px; 
+   margin-bottom: 20px;
+   display: block;
+   font-family: "Salden"; 
+   font-size: 1.9vw;
+   letter-spacing: 1px;
+}
+ 
+.address li p , .hours li p , .connect li a{
+    color:black;
+    letter-spacing: 1px;
+    
+    font-size:1.3vw;
+    font-family: "Acumin Pro,", sans-serif; 
+    font-weight: 400;
+}
+
+
+
+
+
+.connect li{
+    float:left;
+}
+
+.address , .hours , .connect {
+    list-style:none; 
+}
+
+
+
+ .FacebookIcon {
+    
+    display: block;
+      height: 40px;
+      max-width: 100%;
+     border-radius: 3px;
+     margin-top: 4px; 
+     
+      
+     
+}
+
+.InstagramIcon {
+    
+    display: block;
+      height: 65px;
+      max-width: 100%;
+     border-radius: 3px;
+     margin-left: 25px;
+    padding-bottom: 17px; 
+    
+     
+}
+
+
